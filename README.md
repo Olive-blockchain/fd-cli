@@ -44,14 +44,8 @@ fd-cli nft-recover \
   -p "$POOL_CONTRACT_ADDRESS" \
   -nh 127.0.0.1 \
   -np 7559 \
-  -ct $HOME/.flora/mainnet/config/ssl/full_node/private_full_node.crt \
-  -ck $HOME/.flora/mainnet/config/ssl/full_node/private_full_node.key
+  -ct $HOME/.olive/mainnet/config/ssl/full_node/private_full_node.crt \
+  -ck $HOME/.olive/mainnet/config/ssl/full_node/private_full_node.key
   
 # All coins that were mined +7 days ago WITH NFT PLOT should be spendable soon via wallet.
 ```
-
-# Install Español
-https://github.com/Flora-Network/fd-cli/blob/master/README-ES.md
-
-# Install Italiano
-https://github.com/Flora-Network/fd-cli/blob/master/README-IT.md
