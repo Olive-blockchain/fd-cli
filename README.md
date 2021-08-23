@@ -43,7 +43,7 @@ fd-cli nft-recover \
   -l "$LAUNCHER_HASH" \
   -p "$POOL_CONTRACT_ADDRESS" \
   -nh 127.0.0.1 \
-  -np 7559 \
+  -np 7558 \
   -ct $HOME/.olive/mainnet/config/ssl/full_node/private_full_node.crt \
   -ck $HOME/.olive/mainnet/config/ssl/full_node/private_full_node.key
   
